@@ -1,0 +1,133 @@
+/* Adicionar aqui toda a estilização criada para sua aplicação. */
+body{
+    margin: 0;
+    font-family: sans-serif;
+     background: url(../assets/imgs/bg-jelly-fish-para_outras_pags.png) no-repeat center center fixed;
+    background-size: cover;
+
+}
+
+/* HEADER INICIO */
+
+.header{
+    background-color: black;
+    border-bottom: 3px solid #32b9cd ;
+
+}
+.header .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 15px;
+
+}
+.navbar{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #e3b062;
+    width: 400px;
+    
+}
+.navbar a{
+    color: #e3b062;
+    text-decoration: none;
+}
+.agora a{
+    color: white;
+    font-weight: bold;
+}
+.titulo{
+    color: #32b9cd;
+}
+
+/* HEADER FIM */
+/* login INICIO */
+
+.login {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-login {
+    background-color: #f2f2f2;
+    border-radius: 10px;
+    padding: 40px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.3);
+    width: 550px;
+    text-align: center;
+}
+
+.card-login h2 {
+    color: #e60073;
+    margin-bottom: 20px;
+    font-size: 30px;
+}
+
+.formulario .campo {
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+.formulario .campo span {
+    display: block;
+    font-weight: bold;
+    color: #e60073;
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+
+.formulario .campo input {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    display: flex;
+    text-align: center;
+    outline: none;
+    font-size: 14px;
+    border: 1px solid #32b9cd;
+}
+
+.botao {
+    background-color: #e60073;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 5px;
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+    width: 50%;
+}
+
+.botao:hover {
+    background-color: #cc005f;
+}
+
+
+
+/* Inicio da footer */
+.footer{
+    background-color: #32b9cd;
+
+}
+.footer .container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+    flex-direction: column;
+    padding: 50px 0 ;
+
+}
+
+
+
+/* Fim da footer  */
